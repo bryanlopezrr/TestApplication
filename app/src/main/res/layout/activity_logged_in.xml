@@ -6,4 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".LoggedInActivity">
 
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="208dp"
+        android:text="Welcome : "
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/unlockedImageView"
+        android:layout_width="85dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="128dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeTextView"
+        app:srcCompat="@android:drawable/ic_partial_secure" />
 </androidx.constraintlayout.widget.ConstraintLayout>
